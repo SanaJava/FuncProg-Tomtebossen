@@ -11,7 +11,7 @@ fun main(){
     val stringInput = readLine()!!
     println("Söker efter: $stringInput")
 
-    val searchChart = ListOfHierarchyChart()
+    val searchChart = SantaDatabase()
     val hierarchy = searchChart.getSantaChain(stringInput)
 
     println("Organisation:")
@@ -20,7 +20,7 @@ fun main(){
 }
 
 /*fun test() {
-    val chart = ListOfHierarchyChart()
+    val chart = SantaDatabase()
     println("---------------- Test data ----------------")
     println("Räven: " + chart.getSantaChain("Räven"))
     println("Myran: " + chart.getSantaChain("Myran"))

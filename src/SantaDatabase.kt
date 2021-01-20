@@ -5,7 +5,7 @@
  * Project: SantasHierarchy
  * Copyright: MIT
  */
-class ListOfHierarchyChart {
+class SantaDatabase {
 
     var santaList: List<Santa> = listOf(
         Santa("Tomten", listOf("Glader", "Butter")),
